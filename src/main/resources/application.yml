@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@//192.168.219.102:1521/XE
+    username: class_c
+    password: practice
+
+  mvc:
+    view:
+      prefix: /WEB-INF/view/
+      suffix: .jsp
